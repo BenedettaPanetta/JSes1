@@ -4,7 +4,6 @@ var addBtn = function(){
     document.getElementById("body1").append(btn); //aggiunge button al body
     btn.addEventListener("click", changeColor);
 }
-
 var changeColor = function (){
     console.log("ciao");
     document.getElementById("div1").setAttribute("style", "background-color: rgb(115, 224, 238)"); //modifica colore div
